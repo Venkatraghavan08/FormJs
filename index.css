@@ -55,7 +55,7 @@ h2{
 .form-control.error small{
     visibility: visible;
 }
-.form button {
+#submit {
     cursor: pointer;
     background-color: #3498db;
     border: 2px solid #3498db;
@@ -65,5 +65,7 @@ h2{
     padding: 10px;
     font-size: 16px;
     margin-top:20px;
-    width:100%;
+    
+    
+    /* width:100%; */
 }
