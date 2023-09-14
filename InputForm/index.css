@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 :root{
     --succes-color: #2ecc71;;
     --error-color: #e74c3c;
@@ -7,7 +14,8 @@
     border-radius: 5px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.3);
     width: 400px;
-    margin: 10px auto;
+    margin-top: 2%;
+
 }
 h2{
     text-align: center;
@@ -15,6 +23,7 @@ h2{
 }
 .form{
     padding: 30px 40px;
+    
 }
 .form-control{
     margin-bottom: 10px;
@@ -55,7 +64,7 @@ h2{
 .form-control.error small{
     visibility: visible;
 }
-#submit {
+#submit{
     cursor: pointer;
     background-color: #3498db;
     border: 2px solid #3498db;
@@ -64,8 +73,15 @@ h2{
     display: block;
     padding: 10px;
     font-size: 16px;
+    margin: auto;
     margin-top:20px;
+    transition: 0.5s ease-in-out;
     
     
     /* width:100%; */
+}
+
+#submit:hover{
+    background-color: #fff;
+    color: #000;
 }

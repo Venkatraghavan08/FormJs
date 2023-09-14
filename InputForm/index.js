@@ -92,6 +92,7 @@ form.addEventListener('submit',function(e) {
     e.preventDefault();
     checkEmail(email);
     writeExcel(email, fname, lname, pnumber, college);
+    message();
     // checkRequired([username, email, password, password2]);
     // checkLength(username,3,15);
     // checkLength(password,6,25);
@@ -99,3 +100,10 @@ form.addEventListener('submit',function(e) {
     // checkPasswordMatch(password, password2);
     
 }); 
+
+//Alert
+
+function message(){
+    alert("The form has been succesfully submitted");
+    location.reload();
+}
